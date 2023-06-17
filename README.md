@@ -24,5 +24,6 @@
 
 
 # mint function
-
+    totalSupply += value;
+    balances[recipient] += value;
 # burn function

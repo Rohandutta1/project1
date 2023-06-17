@@ -20,7 +20,7 @@
 
 
 # mapping variable
-
+    mapping(address => uint) public balances;
 
 
 # mint function

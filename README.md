@@ -27,3 +27,5 @@
     totalSupply += value;
     balances[recipient] += value;
 # burn function
+    totalSupply -= value;
+    balances[sender] -= value;
